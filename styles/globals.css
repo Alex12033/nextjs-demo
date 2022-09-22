@@ -24,6 +24,11 @@ h6 {
   justify-content: center;
 }
 
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
 .loader {
   height: 100px;
 }

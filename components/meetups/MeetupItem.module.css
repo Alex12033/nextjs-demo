@@ -44,3 +44,24 @@
 .actions button:active {
   background-color: #ffe2ed;
 }
+
+@media (max-width: 450px) {
+  .image {
+    height: 15rem;
+  }
+
+  .content {
+    padding: 0.5rem;
+  }
+}
+
+
+@media (max-width: 370px) {
+  .image {
+    height: 10rem;
+  }
+
+  .content {
+    padding: 0rem;
+  }
+}
